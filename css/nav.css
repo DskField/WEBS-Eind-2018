@@ -1,0 +1,41 @@
+nav {
+  display: flex;
+
+}
+
+ul.navbar-items{
+  display: flex;
+  flex-direction: row;
+	justify-content: space-evenly; /*Gelijke ruimte tussen de boxjes */
+  width: 100%;
+	margin: 0;
+  padding: 0;
+  list-style-type: none;
+  align-items: center;
+}
+
+ul.navbar-items > li{
+  /* Display */
+  vertical-align: middle;
+  background-color: #05386b;
+
+  /* Border */
+  border-radius: 10%;
+
+  /* Font */
+  color: #8EE4AF;
+  font-weight: bold;
+  font-size: 40px;
+
+  /* Padding */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+ul.navbar-items > li > a{
+  color: #EDF5E1;
+  text-decoration: none;
+}

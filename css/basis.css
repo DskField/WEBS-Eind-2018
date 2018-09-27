@@ -1,0 +1,22 @@
+
+/*
+Blue: #05386b
+DarkGreen: #379683
+LightGreen: #5CDB95
+MintGreen: #8EE4AF
+White: #EDF5E1
+ */
+
+body{
+  background-color: #5CDB95;
+
+}
+
+article.body{
+  position: absolute;
+  margin-bottom: 100px;
+}
+
+.listtitle{
+  font-weight: bold;
+}
