@@ -12,11 +12,6 @@ body{
 
 }
 
-article.body{
-  position: absolute;
-  margin-bottom: 100px;
-}
-
 .listtitle{
   font-weight: bold;
 }
