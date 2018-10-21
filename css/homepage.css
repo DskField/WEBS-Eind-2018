@@ -1,0 +1,33 @@
+
+.bodytitle {
+  text-align: center;
+}
+
+article.body{
+  /* position: absolute; */
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.row-1{
+
+  flex-direction: row;
+}
+
+.row-2{
+  flex-direction: row;
+}
+
+.body-left{
+  width: 480px;
+  height: 60%;
+  background: #379683;
+  border-radius: 5%;
+  color: #EDF5E1;
+  padding: 10px;
+  font-weight: 600;
+  font-family: verdana;
+  font-size: 16px;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
